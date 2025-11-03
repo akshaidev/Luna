@@ -1,0 +1,7 @@
+pyinstaller --onefile --windowed --icon=luna.png --add-data "luna.png;." --add-data "ffmpeg-bin;ffmpeg-bin" luna.py
+
+sign luna.exe
+
+build inno setup
+
+sign innosetupped exe
